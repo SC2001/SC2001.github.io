@@ -1,0 +1,188 @@
+ /* Application-wide Styles */
+h1 {
+    color: #353535;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+  }
+  h2 {
+    color: #353535;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+  }
+  h3 {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    height:100vh;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  body, input[type="text"], button {
+    color: #888;
+    font-family: Cambria, Georgia;
+  }
+  /* everywhere else */
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ .container{
+   width:80%;
+   margin:auto;
+   overflow: hidden;
+ }
+ header{
+   background: #faf9f9;
+   color:#302f2f;
+   padding-top: 15px;
+   padding-bottom: 5px;
+   min-height: 70px;
+   border-bottom: #11ebeb 3px solid;
+ }
+ 
+ header a{
+   color: #ffffff;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 16px;
+ }
+
+ header ul{
+   margin: 0;
+   padding: 0;
+ }
+
+ header li{
+   float: left;
+   display:inline;
+   padding:0 20px 0 20px;
+ }
+
+ header #branding{
+   float: left;
+ }
+
+ header #branding h1{
+   margin:0;
+ }
+ header a{
+   color:rgb(49, 49, 49);
+ }
+ header nav{
+   float: right;
+   margin-top: 10px;
+ }
+ header .highlight, header .current a{
+   color: #11ebeb;
+   font-weight: bold;
+ }
+
+ header a:hover{
+   color:#11ebeb;
+   font-weight: bold;
+ }
+
+ /* showcase */
+
+ #showcase{
+   min-height:400px;
+   background:url('assets/betterline.jpg')no-repeat;
+   background-size: 100%;
+   text-align: center;
+   color:#ffffff;
+   font-size: 20px;
+   border-bottom: #eeeeee 30px solid;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+   
+ }
+ #showcase h2{
+   margin-top: 100px;
+   margin-bottom:10px;
+   font-size:55px;
+ }
+ #display{
+   margin-top: 15px;
+   padding: 200px;
+   background:url('assets/marble.jpeg')no-repeat;
+   background-size: 100%;
+   border-bottom: #11ebeb 3px solid;
+  }
+
+ 
+
+.window{
+  margin:4px;
+  padding: 10%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+div.gallery {
+  margin-top: 20px;
+  padding: 0;
+  float: left;
+  
+}
+
+
+div.gallery img {
+  margin-top: 400px;
+  transition: .5s;
+  margin: 5px;
+  padding: 0px;
+  width: 230px;
+  height: 230px;
+  image-resolution: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+  border: 5px solid rgb(255, 255, 255);
+  border-color: #f4f4f400;
+  
+}
+
+div.gallery img:hover {
+ transform: scale(1.1);
+ filter: brightness(120%);
+ border: 5px solid rgb(137, 240, 235);
+ 
+} 
+
+#boxes{
+  padding: 50px;
+  margin: 20px;
+}
+
+div.box a{
+   color:rgb(49, 49, 49);
+   text-decoration: none;
+}
+#boxes .box{
+   width: 30%;
+   float: left;
+   padding: 10px;
+   text-align: center;
+}
+#boxes .box img{
+  width: 90px;
+  height: auto;
+}
+#boxes .box img:hover{
+  transition: 0.2s;
+  transform: scale(1.1);
+
+}
+.gonzobeans{
+  color: red;
+  background: red;
+ 
+ 
+ }
+
+ 
