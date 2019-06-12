@@ -98,7 +98,7 @@ h1 {
    background-size: 100%;
    text-align: center;
    color:#ffffff;
-   font-size: 20px;
+   font-size: 30px;
    border-bottom: #eeeeee 30px solid;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
@@ -169,6 +169,7 @@ div.box a{
    width: 30%;
    float: left;
    padding: 10px;
+   padding-left: 80px;
    text-align: center;
 }
 #boxes .box img{
